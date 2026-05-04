@@ -36,7 +36,7 @@ export function Navbar() {
                   className={`transition-all flex align-middle relative py-1 px-2 m-1 ${
                     isActive
                       ? 'font-semibold text-neutral-900 dark:text-neutral-100'
-                      : 'text-neutral-500 hover:text-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-200'
+                      : 'text-neutral-800 hover:text-neutral-900 dark:text-neutral-300 dark:hover:text-neutral-100'
                   }`}
                 >
                   {name}
